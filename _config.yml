@@ -13,29 +13,8 @@ presskit_download_link                    : https://abhisek.de                  
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : AURORA Clinic app                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 'App for clinic management and patient care for small clinics and independent practitioners.
-
-
-Hey Doctors! 
-
-
-We understand that clinic management is hard, that''s why many clinics outsource it to a third parties or purchase expensive speciality softwares. We present to you our app, that has everything you need to manage your clinic. 
-
-
-With our app, you''ll be able to: 
-- Manage your patient and appointments
-- Digitally record your clinical sessions, and then, 
-- Create and send prescriptions directly to your patients. 
-- You don''t have to manage or enter data for new medicines or diseases
-- You can also manage your employees and 
-- Access reports of your clinic''s performance. 
-
-
-All of these, directly from your phone! Say goodbye to paper charts and pen and paper note taking! 
-
-
-Download AURORA on your phone or tablet and start for free.'
-
+app_description                           : App for clinic management and patient care for small clinics and independent practitioners. Say goodbye to paper charts and pen and paper note taking! 
+Download AURORA on your phone or tablet and start for free.
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
