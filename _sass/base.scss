@@ -15,27 +15,38 @@ html {
 	font-size: 62.5%;
 	font-family: $font;
 	line-height: 1;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
 	font-size: 2rem;
 	background-color: $body-color;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .subPageBody {
 	background-color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
 	font-size: 3rem;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
 	font-size: 2rem;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h3 {
     font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 // Better font rendering
@@ -43,6 +54,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: $body-color;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 a:link,
