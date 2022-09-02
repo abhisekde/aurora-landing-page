@@ -13,11 +13,14 @@ presskit_download_link                    : https://abhisek.de                  
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : AURORA Clinic app                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 'Simple clinic management and patient care for small clinics and independent practitioners
+app_description                           : 'App for clinic management and patient care for small clinics and independent practitioners.
+
 
 Hey Doctors! 
 
+
 We understand that clinic management is hard, that''s why many clinics outsource it to a third parties or purchase expensive speciality softwares. We present to you our app, that has everything you need to manage your clinic. 
+
 
 With our app, you''ll be able to: 
 - Manage your patient and appointments
@@ -27,7 +30,9 @@ With our app, you''ll be able to:
 - You can also manage your employees and 
 - Access reports of your clinic''s performance. 
 
+
 All of these, directly from your phone! Say goodbye to paper charts and pen and paper note taking! 
+
 
 Download AURORA on your phone or tablet and start for free.'
 
@@ -98,7 +103,7 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_image                               :                     # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
