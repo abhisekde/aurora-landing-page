@@ -2,15 +2,6 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap')
-}
-
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
 $body-color: {{ site.body_background_color }};
 
 $header-image: "{{ site.cover_image }}";
