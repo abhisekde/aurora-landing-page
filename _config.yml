@@ -35,11 +35,11 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Use on your phone or tablet
-    description                           : No need to buy fancy computer or any special softwares. Just download the app on your phone or tablet. 
+    description                           : No need to buy a fancy computer or any special softwares. Simply download the app on your phone or tablet and get started. 
     fontawesome_icon_name                 : mobile
     
   - title                                 : Easily manage patients
-    description                           : Create patient profiles with basic informations like name, gender and a phone number. Clinic sessions and medical records can be easily viewed for each profiles. 
+    description                           : Create patient profiles with basic informations like name, gender and a phone number. Medical history can be easily viewed for each profiles. 
     fontawesome_icon_name                 : user-injured
     
   - title                                 : All your visits
@@ -55,19 +55,19 @@ features                                  :
     fontawesome_icon_name                 : keyboard
   
   - title                                 : Easy to use interface
-    description                           : Fluid and uncluttered interface for you pleasure of use. Simple and intuitive workflows.
+    description                           : Fluid and uncluttered interface for your pleasure of use. Simple, intuitive workflows.
     fontawesome_icon_name                 : star
 
   - title                                 : Secure cloud storage
-    description                           : All of your and your patients'' data are securely stored in the cloud. Login from any device and access your data any time.
+    description                           : All data are securely stored in the cloud. Login from any device and access your data any time.
     fontawesome_icon_name                 : cloud
 
   - title                                 : Dashboard and reports
-    description                           : Dashboard to preview your daily progress and peek you upcoming appointment. More reports coming soon!
+    description                           : Dashboard to preview your daily progress and preview upcoming appointment. More reports coming soon!
     fontawesome_icon_name                 : chart-line
 
   - title                                 : Support
-    description                           : Request addition of a new drug or report a new disease to, and more. Support is just a click away.
+    description                           : Request addition of a new drug or report a new disease, or request help. Support is just a click away.
     fontawesome_icon_name                 : info-circle
 
 
