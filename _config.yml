@@ -63,7 +63,7 @@ features                                  :
     fontawesome_icon_name                 : cloud
 
   - title                                 : Dashboard and reports
-    description                           : Dashboard to preview your daily progress and preview upcoming appointment. More reports coming soon!
+    description                           : Dashboard to view your daily progress and preview upcoming appointment. More reports coming soon!
     fontawesome_icon_name                 : chart-line
 
   - title                                 : Support
