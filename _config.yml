@@ -39,15 +39,15 @@ features                                  :
     fontawesome_icon_name                 : mobile
     
   - title                                 : Easily manage patients
-    description                           : Create patient profiles with basic informations like name, gender and a phone number. Clinic sessions and medical records can be easily viewed for each profiles 
+    description                           : Create patient profiles with basic informations like name, gender and a phone number. Clinic sessions and medical records can be easily viewed for each profiles. 
     fontawesome_icon_name                 : user-injured
     
   - title                                 : All your visits
-    description                           : Personally create your appointments or let your assistant do it for you. All of them will show up in your daily calendar
+    description                           : Personally create your appointments or let your assistant do it for you. All of them will show up in your daily calendar.
     fontawesome_icon_name                 : calendar-check
 
   - title                                 : Digital prescriptions
-    description                           : Record your clinic sessions directly on the app, no more paper charts or pen and paper note taking! Share your prescriptions directly with the patient
+    description                           : Record your clinic sessions directly on the app, no more paper charts or pen and paper note taking! Share your prescriptions directly with the patient.
     fontawesome_icon_name                 : file-prescription
 
   - title                                 : Less data entry 
@@ -59,7 +59,7 @@ features                                  :
     fontawesome_icon_name                 : star
 
   - title                                 : Secure cloud storage
-    description                           : All of your and your patients'' data are securely stored in the cloud. Login from any device and access your data any time
+    description                           : All of your and your patients'' data are securely stored in the cloud. Login from any device and access your data any time.
     fontawesome_icon_name                 : cloud
 
   - title                                 : Dashboard and reports
