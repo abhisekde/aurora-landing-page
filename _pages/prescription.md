@@ -23,7 +23,7 @@ include_in_header: false
 <!-- <iframe id="pdfView" style="width: 100%; height: 100%; overflow: scroll; margin: 0; padding: 0; border: none;"/> -->
 <iframe 
         id="pdfView" 
-        src=`${pdfViewSrc}`
+        src={`${pdfViewSrc}`}
         title="Prescription" 
         width="100%" 
         height="100%" 
