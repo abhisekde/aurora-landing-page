@@ -2,17 +2,65 @@
 title: Prescription
 include_in_header: false
 ---
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js">
+</script>
 <script>
     window.onload = function redirect() {
         var redirectUrl = 'https://asia-south1-aurora-clinic-app.cloudfunctions.net/prescription?';
         var queryString = window.location.href.split('?')[1];
         if(queryString != null && queryString != undefined) {
             redirectUrl = redirectUrl + queryString; 
-            document.getElementById('pdfView').src = redirectUrl;
         } else {
             window.location = 'https://auroraclinic.app/';
         }
     }
 </script>
-<!-- <iframe id="pdfView" style="width: 100%; height: 100%; overflow: scroll; margin: 0; padding: 0; border: none;"/> -->
-<embed id="pdfView" type="application/pdf" width="100%" height="100%">
+
+<div id="my_pdf_viewer">
+    <div id="canvas_container">
+        <canvas id="pdf_renderer"></canvas>
+    </div>
+
+    <div id="navigation_controls">
+        <button id="go_previous">Previous</button>
+        <input id="current_page" value="1" type="number"/>
+        <button id="go_next">Next</button>
+    </div>
+
+    <div id="zoom_controls">  
+        <button id="zoom_in">+</button>
+        <button id="zoom_out">-</button>
+    </div>
+</div>
+
+<script>
+    var myState = {
+        pdf: null,
+        currentPage: 1,
+        zoom: 1
+    }
+
+    pdfjsLib.getDocument(redirectUrl).then((pdf) => {
+        myState.pdf = pdf;
+        render();
+    });
+
+    function render() {
+        myState.pdf.getPage(myState.currentPage).then((page) => {
+
+            var canvas = document.getElementById("pdf_renderer");
+            var ctx = canvas.getContext('2d');
+
+            var viewport = page.getViewport(myState.zoom);
+
+            canvas.width = viewport.width;
+            canvas.height = viewport.height;
+
+            page.render({
+                canvasContext: ctx,
+                viewport: viewport
+            });
+        });
+    }
+</script>
