@@ -1,5 +1,8 @@
+---
+title: Prescription
+include_in_header: false
+---
 <head>
-	<title>Prescription</title>
     <script>
         
         var redirectUrl = 'https://asia-south1-aurora-clinic-app.cloudfunctions.net/prescription?';
