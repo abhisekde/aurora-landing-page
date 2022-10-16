@@ -10,7 +10,7 @@ include_in_header: false
         var queryString = window.location.href.split('?')[1];
         if(queryString != null && queryString != undefined) {
             redirectUrl = redirectUrl + queryString; 
-            document.getElementById('pdfView').src = redirectUrl;
+            // document.getElementById('pdfView').src = redirectUrl;
         } else {
             window.location = 'https://auroraclinic.app/';
         }
@@ -21,6 +21,7 @@ include_in_header: false
         title="Prescription" 
         src={`/pdfjs-2/web/viewer.html?file=${redirectUrl}`} 
         width=100% 
-        height=00%
-        ></iframe>
+        height=100% 
+        frameborder=0 >
+</iframe>
 <!-- <embed id="pdfView" type="application/pdf" width="100%" height="100%"> -->
