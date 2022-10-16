@@ -14,4 +14,5 @@ include_in_header: false
         }
     }
 </script>
-<embed id="pdfView" type="application/pdf" width="100%" height="100%">
+<iframe id="pdfView" style="width: 100%; height: 100%; overflow: scroll; margin: 0; padding: 0; border: none;"/>
+<!-- <embed id="pdfView" type="application/pdf" width="100%" height="100%"> -->
