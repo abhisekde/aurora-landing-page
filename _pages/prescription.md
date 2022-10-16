@@ -14,5 +14,4 @@ include_in_header: false
         }
     }
 </script>
-<p style="font-family:arial;">Downloading your prescription...</p>
-<iframe id="pdfView" />
+<iframe id="pdfView" style="width: 100%; height: 100%; overflow: scroll; margin: 0; padding: 0; border: none;"/>
